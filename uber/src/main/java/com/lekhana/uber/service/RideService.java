@@ -20,7 +20,7 @@ public class RideService {
         Ride ride = new Ride();
         ride.setUserId(username);
         ride.setPickupLocation(request.getPickupLocation());
-        ride.setDestinationLocation(request.getDropLocation());
+        ride.setDropLocation(request.getDropLocation());
         return rideRepository.save(ride);
     }
     public List<Ride> getPendingRides() {

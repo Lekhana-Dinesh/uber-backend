@@ -13,7 +13,7 @@ public class Ride {
     private String userId;
     private String driverId;
     private String pickupLocation;
-    private String destinationLocation;
+    private String dropLocation;
     private String status;
     private Date createdAt;
 
@@ -45,11 +45,11 @@ public class Ride {
     public void setPickupLocation(String pickupLocation) {
         this.pickupLocation = pickupLocation;
     }
-    public String getDestinationLocation() {
-        return destinationLocation;
+    public String getDropLocation() {
+        return dropLocation;
     }
-    public void setDestinationLocation(String destinationLocation) {
-        this.destinationLocation = destinationLocation;
+    public void setDropLocation(String dropLocation) {
+        this.dropLocation = dropLocation;
     }
     public String getStatus() {
         return status;
